@@ -1,0 +1,27 @@
+.topline{
+   position: relative;
+   float: left;
+   width: 100%;
+   min-width: 30rem;
+   z-index: -1;
+}
+.textbox{
+    position: absolute;
+    top: 10rem;
+    left: 50%;
+ 
+    margin-left: -15rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+ 
+    width: 30rem;
+ }
+ .message{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 2.17rem;
+    font-weight: bold;
+    font-family: 'DM Mono', monospace;
+    color: rgb(27, 151, 64);
+ }

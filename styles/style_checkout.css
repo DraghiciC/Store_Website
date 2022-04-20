@@ -1,0 +1,97 @@
+html, body{
+    background-color: #E6E6EA;
+ }
+ .topline{
+    position: relative;
+    float: left;
+    width: 100%;
+    min-width: 58rem;
+    z-index: -1;
+ }
+ .container{
+    position: absolute;
+    top: 0;
+    left: 50%;
+ 
+    margin-left: -29rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+ 
+    /* min-height: 30rem; */
+    width: 58rem;
+    border-radius: 10px;
+    background-color: #002d57;
+ }
+ .shop_logo{
+    margin-top: 0;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Dancing Script';
+    color: white;
+ }
+ .php{
+   margin-top: 1rem;
+   margin-left: 1rem;
+   width: 56rem;
+   height: 20rem;
+   margin-bottom: 1rem;
+   border-radius: 10px;
+   color: black;
+   background-color: white;
+   font-size: larger;
+   font-weight: bold;
+ }
+ .tlb{
+     margin-left: 2rem;
+     float: left;
+     text-align: right;
+ }
+ .trb{
+    float: left;
+    margin-left: 2rem;
+    text-align: right;
+ }
+ .titlu{
+     text-align: center;
+     font-size: 30px;
+     margin-bottom: 3rem;
+ }
+ .elem{
+     margin-top: 1rem;
+ }
+ input{
+    border: 2px solid grey;
+    border-radius: 10px; 
+    height: 50px;
+    /* width: 100%; */
+    font-family: 'Raleway', sans-serif;;
+    font-size: 25px;
+    text-align: left;
+    /* text-indent: 2.5rem; */
+ }
+ label{
+     /* float: right; */
+ }
+ input:focus{
+   outline: none;
+ }
+ button:focus{
+    outline: none;
+  }
+  
+.complete{
+    text-align: right;
+    width: 87%;
+    margin-bottom: 0.5rem;  
+ }
+ .complete button{
+    color: #002d57;
+    background-color: white;
+    border-radius: 6px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+ }
+ .complete button:hover{
+    color: red;
+ }
